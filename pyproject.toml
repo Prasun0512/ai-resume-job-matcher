@@ -1,0 +1,5 @@
+[project]
+name = "ai-resume-job-matcher"
+version = "0.1.0"
+description = "Explainable resume and job-description matching assistant."
+requires-python = ">=3.10"
