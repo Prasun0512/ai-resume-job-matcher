@@ -32,6 +32,14 @@ python -m src.demo
 python -m unittest discover -s tests
 ```
 
+## Included POC Code
+
+- Skill alias extraction for GenAI, RAG, LangGraph, Azure, OCR, and MLOps terms
+- Weighted scoring by skill importance instead of simple keyword count
+- Category-level match scores and leadership alignment scoring
+- Actionable recommendations for missing skills
+- Sample resume and job description in `examples/`
+
 ## Production Extensions
 
 - Add embedding similarity with sentence-transformers

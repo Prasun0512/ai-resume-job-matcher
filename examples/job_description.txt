@@ -1,0 +1,1 @@
+We need an AI Solution Architect with Python, Azure OpenAI, RAG, LangGraph, OCR, Service Bus, production MLOps, and stakeholder leadership experience.

@@ -1,0 +1,1 @@
+Technical Lead and AI/ML Solution Architect with experience in Python, Azure OpenAI, RAG, LangChain, LangGraph, OCR, Azure Functions, Service Bus, MLOps, and production GenAI delivery.

@@ -13,6 +13,15 @@ class MatcherTests(unittest.TestCase):
         report = match_resume_to_job("Python and RAG", "Python RAG LangGraph")
         self.assertIn("langgraph", report.missing_skills)
         self.assertGreater(report.score, 0)
+        self.assertIn("agentic_ai", report.category_scores)
+
+    def test_leadership_alignment_is_scored(self) -> None:
+        report = match_resume_to_job(
+            "Technical Lead and solution architect delivering production RAG on Azure OpenAI.",
+            "Need a solution architect for production Azure OpenAI RAG systems.",
+        )
+        self.assertGreaterEqual(report.leadership_score, 0.5)
+        self.assertGreater(report.score, 0.5)
 
 
 if __name__ == "__main__":
