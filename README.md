@@ -30,6 +30,7 @@ flowchart LR
 ```bash
 python -m src.demo
 python -m unittest discover -s tests
+docker compose up --build
 ```
 
 ## Included POC Code
@@ -39,6 +40,14 @@ python -m unittest discover -s tests
 - Category-level match scores and leadership alignment scoring
 - Actionable recommendations for missing skills
 - Sample resume and job description in `examples/`
+
+## Engineering Maturity
+
+- Dockerfile and `docker-compose.yml` for local execution
+- GitHub Actions workflow for unit tests
+- `.env.example` for safe configuration hygiene
+- Production readiness notes in `docs/production-readiness.md`
+- Privacy, monitoring, cost, scalability, and roadmap considerations documented
 
 ## Production Extensions
 
